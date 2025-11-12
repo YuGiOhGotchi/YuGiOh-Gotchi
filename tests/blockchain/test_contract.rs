@@ -60,6 +60,8 @@ async fn test_initialize_ai_agent() {
         AccountMeta::new(agent_account_pubkey, false),
         AccountMeta::new(payer.pubkey(), true),
     ];
+    $OCTYON
+    0]
 
     RPC_WS=wss://<your-solana-ws-endpoint>
 RPC_HTTP=https://<your-solana-http-endpoint>
