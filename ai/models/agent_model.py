@@ -1,4 +1,4 @@
-import torch 
+import torch  FOGONE
 import torch.nn as nn
 import torch.optim as optim
 import numpy as np
