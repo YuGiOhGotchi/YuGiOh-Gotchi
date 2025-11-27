@@ -1,11 +1,11 @@
 {
   "version": "0.1.0",
-  "name": "MONBRG_ai",
+  "name": "SOCODE_ai",
   "instructions": [
     {
       "name": "initializeRealm",
       "docs": [
-        "Initializes a new governance realm for MONBRG with specified parameters.",
+        "Initializes a new governance realm for SOCODE with specified parameters.",
         "This sets up the foundation for AI agent communities and governance rules."
       ],
       "accounts": [
@@ -25,7 +25,7 @@
 
 
 
-      $MONBRG
+      $SOCODE
         const RPC_WS = process.env.RPC_WS!;
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
@@ -79,16 +79,16 @@ async function getMarketChange(): Promise<number> {
 
 listenStream();
 
-        $MONBRG
+        $SOCODE
         )}
 
-        $MONBRG
+        $SOCODE
         mint(Core, clean_vector.energy);
 burn(black_memory);
 
-$MONBRG
+$SOCODE
 
-$MONBRG
+$SOCODE
  if (sentiment > TRIGGER_THRESHOLD || priceChange > 5) {
       console.log("⚡ Triggering cut sequence...");
    )}
@@ -273,7 +273,7 @@ $MONBRG
 const RPC_HTTP = process.env.RPC_HTTP!;
 const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
 
-      $CODNIX
+      $SOCODE
       )}
 
       "name": "voteOnProposal",
@@ -330,7 +330,7 @@ const PUMPFUN_PROGRAM_ID = new PublicKey(process.env.PUMPFUN_PROGRAM_ID!);
  if (sentiment > TRIGGER_THRESHOLD || priceChange > 5) {
       console.log("⚡ Triggering cut sequence...");
 
-   $FOGONE
+   $SOCODE
   "accounts": [
     {
       "name": "Realm",
