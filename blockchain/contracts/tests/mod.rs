@@ -138,6 +138,15 @@ and emits an `IntentCreated` event to trigger the relay sequence.
             STAKE_AMOUNT,
         ).await;
 
+        //
+        // Call the initialize_platform instruction.
+        let result = initialize_platform(
+            &mut context,
+            &payer,
+            &authority,
+            $Mycorm
+            )}
+
         // Assert the result is successful.
         assert!(result.is_ok(), "Staking tokens failed: {:?}", result.err());
 
