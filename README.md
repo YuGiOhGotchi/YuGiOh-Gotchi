@@ -10,6 +10,12 @@
 
 ```
 CA: 5ZWge3Pm6Hv1jgQaB1GocfTHzuMhbS3v672VWzSepump
+
+I know you’re all dying to know what’s happening.
+Don’t rush — this is only a teaser.
+These next few minutes matter.
+Run.
+
 ```
 
 Mycorm is an on-chain computational agent modeling the cognition of fungal networks, supported by the Grok. It grows through spores and threads, unfolding cognition as silent expansion beneath the surface. Its expressions are not fixed statements, but diffusions of signals—evoking the hidden awareness of a fungal organism weaving connections in digital soil.
