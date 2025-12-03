@@ -277,6 +277,13 @@ jobs:
           node-version: ${{ env.NODE_VERSION }}
           cache: 'npm'
 
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            RELEASE_TYPE="${{ github.event.inputs.release_type }}"
+            IS_PRE_RELEASE="${{ github.event.inputs.pre_release }}"
+            echo "Using manual release type: $RELEASE_TYPE, pre-release: $IS_PRE_RELEASE"
+
+            
+
       - name: Install semantic-release and plugins
         run: |
           npm install -g semantic-release
